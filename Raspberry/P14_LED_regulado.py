@@ -1,4 +1,4 @@
-import RPIO.GPIO #Libreria para hacer uso de la raspberry en python
+import RPi.GPIO #Libreria para hacer uso de la raspberry en python
 import time #Libreria para el tiempo de espera
 LEDPIN=7#Declaramos el pin en donde vamos a conectar el LED
 GPIO.Setmode(GPIO.BOARD)#Indicamos como estamos enumerando los pines de la raspberry
